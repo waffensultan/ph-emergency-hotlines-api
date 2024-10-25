@@ -2,6 +2,7 @@
 ## Tech Stack: TypeScript, Express
 ## Deployment: Render
 
+## Architecture and Principles: MVC (Model-View-Controller), DRY (Don't Repeat Yourself)
 ## MVC (Model-View-Controller) Architecture:
 --> Follow MVC (Model-View-Controller) Pattern
 ---> Controller: Handles incoming HTTP requests and returns responses

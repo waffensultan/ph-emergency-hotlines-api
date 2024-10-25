@@ -1,29 +1,296 @@
 [
     {
         "national": {
-            "general": {
-                "nationwide": 911
-            },
-            "police": {
-
-            },
-            "fire": {
-
-            },
-            "medical": {
-
-            },
-            "rescue_disaster": {
-
-            },
-            "weather": {
-
-            },
-            "earthquake_seismic": {
-
-            },
-            "traffic": {
-
+            "general": [
+                {
+                    "name": "Emergency Hotline (Nationwide)",
+                    "hotlines": [
+                        {
+                            "number": "911"
+                        }
+                    ]
+                }
+            ],
+            "police": [
+                {
+                    "abbreviation": "PNP",
+                    "name": "Philippire National Police",
+                    "hotlines": [
+                        {
+                            "number": "117"
+                        },
+                        {
+                            "number": "(02) 8722-0650"
+                        }
+                    ]
+                }
+            ],
+            "fire": [
+                {
+                    "abbreviation": "BFP",
+                    "name": "Bureau of Fire Protection",
+                    "hotlines": [
+                        {
+                            "number": "(02) 8426-0219"
+                        },
+                        {
+                            "number": "(02) 8426-0246"
+                        }
+                    ]
+                }
+            ] ,
+            "medical": [
+                {
+                    "name": "Red Cross",
+                    "hotlines": [
+                        {
+                            "number": "143"
+                        },
+                        {
+                            "number" : "(02) 8527-8385",
+                            "range": "95"
+                        }
+                    ]
+                }
+            ],
+            "rescue_disaster": [
+                {
+                    "abbreviation": "NDRRMC",
+                    "name": "National Disaster Risk Reduction and Management Council",
+                    "hotlines": [
+                        {
+                            "number": "(02) 8911-5061",
+                            "range": "65",
+                            "location_code": "LOC 100"
+                        }
+                    ]
+                },
+                {
+                    "name": "Coast Guard",
+                    "hotlines": [
+                        {
+                            "number": "(02) 8527-3877"
+                        }
+                    ]
+                }
+            ],
+            "weather": [
+                {
+                    "abbreviation": "PAGASA",
+                    "name": "Philippine Atmospheric, Geophysical and Astronomical Services Administration",
+                    "hotlines": [
+                        {
+                            "number": "(02) 8284-0800"
+                        }
+                    ]
+                }
+            ],
+            "earthquake_seismic": [
+                {
+                    "abbreviation": "PHIVOLCS",
+                    "name": "Philippine Institute of Volcanology and Seismology",
+                    "hotlines": [
+                        {
+                            "number": "(02) 8426-1468",
+                            "range": "79"
+                        }
+                    ]
+                }
+            ],
+            "traffic": [
+                {
+                    "abbreviation": "MMDA",
+                    "name": "Metropolitan Manila Development Authority",
+                    "hotlines": [
+                        {
+                            "number": "(02) 882-4151",
+                            "range": "77"
+                        }
+                    ]
+                }
+            ]
+        },
+        "calabarzon": {
+            "cavite": {
+                "alfonso": {
+                    "police": [
+                        {
+                            "abbreviation": "Alfonso Philippine National Police",
+                            "name": "Alfonso PNP",
+                            "hotlines": [
+                                {
+                                    "number": "0906 536 6135"
+                                },
+                                {
+                                    "number": "0998 967 3364"
+                                },
+                                {
+                                    "number": "046 522 0800"
+                                }
+                            ]
+                        }
+                    ],
+                    "fire": [
+                        {
+                            "abbreviation": "BFP",
+                            "name": "Bureau of Fire Protection",
+                            "hotlines": [
+                                {
+                                    "number": "0915 602 2113"
+                                },
+                                {
+                                    "number": "0929 663 2424"
+                                },
+                                {
+                                    "number": "046 522 0480"
+                                }
+                            ]
+                        }
+                    ],
+                    "medical": [
+                        {
+                            "name": "Hospital",
+                            "hotlines": [
+                                {
+                                    "number": "0917 306 2419"
+                                },
+                                {
+                                    "number": "415 0190"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Ambulance",
+                            "hotlines": [
+                                {
+                                    "number": "0917 833 0206"
+                                }
+                            ]
+                        }
+                    ],
+                    "rescue_disaster": [
+                        {
+                            "abbreviation": "MDRRMO",
+                            "name": "Municipal Disaster Risk Reduction and Management Office",
+                            "hotlines": [
+                                {
+                                    "number": "046 443 9083"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "trece-martires-city": {
+                    "police": [
+                        {
+                            "abbreviation": "Trece Martires City PNP",
+                            "name": "Trece Martires City National Philippine Force",
+                            "hotlines": [
+                                {
+                                    "number": "0977 680 1240"
+                                },
+                                {
+                                    "number": "686 3460"
+                                }
+                            ]
+                        }
+                    ],
+                    "rescue_disaster": [
+                        {
+                            "abbreviation": "CDRRMO",
+                            "name": "City Disaster Risk Reduction and Maintenance Office",
+                            "hotlines": [
+                                {
+                                    "number": "0977 676 3491"
+                                },
+                                {
+                                    "number": "0949 629 8026"
+                                },
+                                {
+                                    "number": "419 3858"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "indang": {
+                    "gender": [
+                        {
+                            "name": "Municipal Command Center",
+                            "hotlines": [
+                                {
+                                    "number": "046 460 4708"
+                                },
+                                {
+                                    "number": "046 460 4709"
+                                }
+                            ]
+                        }
+                    ],
+                    "police": [
+                        {
+                            "abbreviation": "Indang PNP",
+                            "name": "Indang Philippine National Police",
+                            "hotlines": [
+                                {
+                                    "number": "0949 184 9145"
+                                }
+                            ]
+                        }
+                    ],
+                    "rescue_disaster": [
+                        {
+                            "abbreviation": "LDRRMO",
+                            "name": "Local Disaster Risk Reduction Management Office",
+                            "hotlines": [
+                                {
+                                    "number": "0915 206 6929"
+                                },
+                                {
+                                    "number": "0916 183 1458"
+                                }
+                            ]
+                        }
+                    ],
+                    "fire": [
+                        {
+                            "abbreviation": "BFP",
+                            "name": "Bureau of Fire Protection",
+                            "hotlines": [
+                                {
+                                    "number": "0915 603 4245"
+                                },
+                                {
+                                    "number": "415 1217"
+                                }
+                            ]
+                        }
+                    ],
+                    "medical": [
+                        {
+                            "name": "Health Center",
+                            "hotlines": [
+                                {
+                                    "number": "415 0286"
+                                },
+                                {
+                                    "number": "683 9772"
+                                }
+                            ]
+                        }
+                    ],
+                    "social": [
+                        {
+                            "abbreviation": "DSWD",
+                            "name": "Department of Social Welfare and Development",
+                            "hotliness": [
+                                {
+                                    "number": "443 9074"
+                                }
+                            ]
+                        }
+                    ]
+                }
             }
         }
     }

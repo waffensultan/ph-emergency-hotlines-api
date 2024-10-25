@@ -5,3 +5,6 @@ dist/
 # Environment Files
 .env
 .env.*local
+
+# FDO (For-Devs-Only)
+DEVELOPMENT.md
