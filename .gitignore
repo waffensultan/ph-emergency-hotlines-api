@@ -7,4 +7,4 @@ dist/
 .env.*local
 
 # FDO (For-Devs-Only)
-DEVELOPMENT.md
+dev.md
