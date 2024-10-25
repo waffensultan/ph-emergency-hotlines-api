@@ -1,0 +1,30 @@
+[
+    {
+        "national": {
+            "general": {
+                "nationwide": 911
+            },
+            "police": {
+
+            },
+            "fire": {
+
+            },
+            "medical": {
+
+            },
+            "rescue_disaster": {
+
+            },
+            "weather": {
+
+            },
+            "earthquake_seismic": {
+
+            },
+            "traffic": {
+
+            }
+        }
+    }
+]
