@@ -1,5 +1,4 @@
-import type { Response } from "express";
-import express from "express";
+import express, { type Response } from "express";
 
 import api_handler from "../controllers/api_handler";
 

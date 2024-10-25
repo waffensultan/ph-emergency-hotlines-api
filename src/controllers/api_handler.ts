@@ -39,6 +39,4 @@ const get_nested_data = (data: any, keys: any) => {
     return keys.reduce((acc: any, key: any) => (acc && acc[key] ? acc[key] : null), data);
 }
 
-/* REMEMBER TO ADD STATUS CODES */
-
 export default api_handler;

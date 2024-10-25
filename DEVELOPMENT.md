@@ -37,3 +37,8 @@
 - notes:
 - 1. fetching without any parameters will result in retrieving national emergency hotlines
 - e.g. https://api.phemergencyhotlines.com/ <--- receive national emergency hotlines
+
+-----------------------------------------------------
+# BUGS
+1. calling api/{region}/{province}/{city_or_municipality}?hotline_type=social
+--->  will return 'success' even though it might not exist
