@@ -214,7 +214,7 @@
                     ]
                 },
                 "indang": {
-                    "gender": [
+                    "general": [
                         {
                             "name": "Municipal Command Center",
                             "hotlines": [
@@ -286,6 +286,106 @@
                             "hotliness": [
                                 {
                                     "number": "443 9074"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "general-mariano-alvarez": {
+                    "digital": [
+                        {
+                            "name": "SMART",
+                            "hotlines": [
+                                {
+                                    "number": "0928 687 2839"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "GLOBE",
+                            "hotlines": [
+                                {
+                                    "number": "0916 447 3598"
+                                }
+                            ]
+                        }
+                    ],
+                    "medical": [
+                        {
+                            "name": "Municipal Health Office",
+                            "hotlines": [
+                                {
+                                    "number": "046 972 2093"
+                                }
+                            ]
+                        }
+                    ],
+                    "rescue_disaster": [
+                        {
+                            "abbreviation": "MDRRMO",
+                            "name": "Municipal Disaster Risk Reduction and Management Office",
+                            "hotlines": [
+                                {
+                                    "number": "046 443 9389"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "kawit": {
+                    "general": [
+                        {
+                            "name": "Kawit Operation Center",
+                            "hotlines": [
+                                {
+                                    "number": "0997 253 5503"
+                                },
+                                {
+                                    "number": "046 253 5503"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Kawit Public Safety Office",
+                            "hotlines": [
+                                {
+                                    "number": "0998 967 3356"
+                                }
+                            ]
+                        }
+                    ],
+                    "fire": [
+                        {
+                            "abbreviation": "Kawit BFP",
+                            "name": "Kawit Bureau of Fire Protection",
+                            "hotlines": [
+                                {
+                                    "number": "484 5250"
+                                }
+                            ]
+                        }
+                    ],
+                    "police": [
+                        {
+                            "abbreviation": "Kawit MPS",
+                            "name": "Kawit Municipal Police Station",
+                            "hotlines": [
+                                {
+                                    "number": "0926 815 3057"
+                                },
+                                {
+                                    "number": "046 686 7411"
+                                }
+                            ]
+                        }
+                    ],
+                    "rescue_disaster": [
+                        {
+                            "abbreviation": "Kawit MDRRMO",
+                            "name": "Kawit Municipal Disaster Risk Reduction and Management Office",
+                            "hotlines": [
+                                {
+                                    "number": "046 438 2449"
                                 }
                             ]
                         }
