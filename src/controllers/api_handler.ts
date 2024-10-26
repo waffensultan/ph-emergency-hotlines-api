@@ -7,10 +7,11 @@ const api_handler = (req: Request, res: Response) => {
     const { region, province, city_or_municipality, } = req.params;
     const { hotline } = req.query;
 
-    const file_path = path.resolve(__dirname, '../models/source.json');
+    let file_path;
     let source;
 
     try {
+        file_path = path.resolve(__dirname, '../models/source.json');
         source = JSON.parse(fs.readFileSync(file_path, 'utf-8'))[0];
     } catch (error) {
         console.error('Error reading source JSON file: ', error)
@@ -22,30 +23,21 @@ const api_handler = (req: Request, res: Response) => {
     }
 
     const keys = [region, province, city_or_municipality].filter(Boolean);
-    const response = get_nested_data(source, keys);
+    let response = get_nested_data(source, keys);
 
-    if (response) {
-        let final_response = response;
+    if (hotline) {
+        response = response[hotline.toString()];
+    }
 
-        if (hotline) {
-            final_response = final_response[hotline.toString()];
-
-            if (!final_response) {
-                res.status(400).json({
-                    status: 'error',
-                    error: "No data found for the specified parameters."
-                })
-            }
-        }
-
-        res.json({
-            status: 'success',
-            data: final_response
-        })
-    } else {
+    if (!response) {
         res.status(400).json({
             status: 'error',
-            error: "No data found for the specified parameters."
+            error: 'No data found for the specified parameters.'
+        })
+    } else {
+        res.json({
+            status: 'success',
+            data: response
         })
     }
 }
