@@ -1,0 +1,24 @@
+{
+  "general": [
+    {
+      "abbreviation": "Magallanes LGU",
+      "name": "Magallanes Local Government Unit",
+      "hotlines": [
+        {
+          "number": "0915 275 9884"
+        }
+      ]
+    }
+  ],
+  "fire": [
+    {
+      "abbreviation": "Magallanes BFP",
+      "name": "Magallanes Bureau of Fire Protection",
+      "hotlines": [
+        {
+          "number": "046 529 6245"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "general": [
+    {
+      "name": "Tagaytay Public Safety Office",
+      "hotlines": [
+        {
+          "number": "046 682 0299"
+        }
+      ]
+    }
+  ],
+  "police": [
+    {
+      "abbreviation": "Tagaytay PNP",
+      "name": "Tagaytay Philippines National Police",
+      "hotlines": [
+        {
+          "number": "046 413 1282"
+        }
+      ]
+    }
+  ],
+  "fire": [
+    {
+      "abbreviation": "Tagaytay BFP",
+      "name": "Tagaytay Bureau of Fire Protection",
+      "hotlines": [
+        {
+          "number": "046 483 1193"
+        }
+      ]
+    }
+  ],
+  "rescue_disaster": [
+    {
+      "name": "Tagaytay Rescue",
+      "hotlines": [
+        {
+          "number": "046 483 0446"
+        }
+      ]
+    }
+  ],
+  "medical": [
+    {
+      "name": "Tagaytay City Health Office",
+      "hotlines": [
+        {
+          "number": "046 483 0604"
+        }
+      ]
+    },
+    {
+      "name": "Ospital ng Tagaytay",
+      "hotlines": [
+        {
+          "number": "046 483 2160"
+        }
+      ]
+    },
+    {
+      "name": "Unihealth Tagaytay & Medical Center",
+      "hotlines": [
+        {
+          "number": "046 413 1940"
+        }
+      ]
+    }
+  ]
+}

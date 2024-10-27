@@ -1,0 +1,38 @@
+{
+  "medical": [
+    {
+      "name": "Naic Emergency Response Unit",
+      "hotlines": [
+        {
+          "number": "410 5725"
+        }
+      ]
+    }
+  ],
+  "police": [
+    {
+      "name": "Municipal Police Station",
+      "hotlines": [
+        {
+          "number": "0917 637 1584"
+        },
+        {
+          "number": "423 1434"
+        }
+      ]
+    }
+  ],
+  "fire": [
+    {
+      "name": "Naic Bureau of Fire Protection",
+      "hotlines": [
+        {
+          "number": "0917 679 7861"
+        },
+        {
+          "number": "412 1481"
+        }
+      ]
+    }
+  ]
+}

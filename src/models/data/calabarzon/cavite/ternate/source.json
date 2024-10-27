@@ -1,0 +1,45 @@
+{
+  "general": [
+    {
+      "name": "Office of the Mayor",
+      "hotlines": [
+        {
+          "number": "046 402 2309"
+        }
+      ]
+    }
+  ],
+  "rescue_disaster": [
+    {
+      "abbreviation": "Ternate DRRMO",
+      "name": "Ternate Disaster Risk Reduction and Management Office",
+      "hotlines": [
+        {
+          "number": "0920 111 2811"
+        }
+      ]
+    }
+  ],
+  "fire": [
+    {
+      "abbreviation": "Ternate BFP",
+      "name": "Ternate Bureau of Fire Protection",
+      "hotlines": [
+        {
+          "number": "0915 885 1640"
+        }
+      ]
+    }
+  ],
+  "police": [
+    {
+      "abbreviation": "Ternate PNP",
+      "name": "Ternate Philippine National Police",
+      "hotlines": [
+        {
+          "number": "0977 682 2553"
+        }
+      ]
+    }
+  ]
+}

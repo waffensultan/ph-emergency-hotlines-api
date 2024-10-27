@@ -1,0 +1,999 @@
+{
+  "cavite": {
+    "alfonso": {
+      "police": [
+        {
+          "abbreviation": "Alfonso Philippine National Police",
+          "name": "Alfonso PNP",
+          "hotlines": [
+            {
+              "number": "0906 536 6135"
+            },
+            {
+              "number": "0998 967 3364"
+            },
+            {
+              "number": "046 522 0800"
+            }
+          ]
+        }
+      ],
+      "fire": [
+        {
+          "abbreviation": "BFP",
+          "name": "Bureau of Fire Protection",
+          "hotlines": [
+            {
+              "number": "0915 602 2113"
+            },
+            {
+              "number": "0929 663 2424"
+            },
+            {
+              "number": "046 522 0480"
+            }
+          ]
+        }
+      ],
+      "medical": [
+        {
+          "name": "Hospital",
+          "hotlines": [
+            {
+              "number": "0917 306 2419"
+            },
+            {
+              "number": "415 0190"
+            }
+          ]
+        },
+        {
+          "name": "Ambulance",
+          "hotlines": [
+            {
+              "number": "0917 833 0206"
+            }
+          ]
+        }
+      ],
+      "rescue_disaster": [
+        {
+          "abbreviation": "MDRRMO",
+          "name": "Municipal Disaster Risk Reduction and Management Office",
+          "hotlines": [
+            {
+              "number": "046 443 9083"
+            }
+          ]
+        }
+      ]
+    },
+    "trece-martires": {
+      "police": [
+        {
+          "abbreviation": "Trece Martires City PNP",
+          "name": "Trece Martires City National Philippine Force",
+          "hotlines": [
+            {
+              "number": "0977 680 1240"
+            },
+            {
+              "number": "686 3460"
+            }
+          ]
+        }
+      ],
+      "rescue_disaster": [
+        {
+          "abbreviation": "CDRRMO",
+          "name": "City Disaster Risk Reduction and Maintenance Office",
+          "hotlines": [
+            {
+              "number": "0977 676 3491"
+            },
+            {
+              "number": "0949 629 8026"
+            },
+            {
+              "number": "419 3858"
+            }
+          ]
+        }
+      ]
+    },
+    "indang": {
+      "general": [
+        {
+          "name": "Municipal Command Center",
+          "hotlines": [
+            {
+              "number": "046 460 4708"
+            },
+            {
+              "number": "046 460 4709"
+            }
+          ]
+        }
+      ],
+      "police": [
+        {
+          "abbreviation": "Indang PNP",
+          "name": "Indang Philippine National Police",
+          "hotlines": [
+            {
+              "number": "0949 184 9145"
+            }
+          ]
+        }
+      ],
+      "rescue_disaster": [
+        {
+          "abbreviation": "LDRRMO",
+          "name": "Local Disaster Risk Reduction Management Office",
+          "hotlines": [
+            {
+              "number": "0915 206 6929"
+            },
+            {
+              "number": "0916 183 1458"
+            }
+          ]
+        }
+      ],
+      "fire": [
+        {
+          "abbreviation": "BFP",
+          "name": "Bureau of Fire Protection",
+          "hotlines": [
+            {
+              "number": "0915 603 4245"
+            },
+            {
+              "number": "415 1217"
+            }
+          ]
+        }
+      ],
+      "medical": [
+        {
+          "name": "Health Center",
+          "hotlines": [
+            {
+              "number": "415 0286"
+            },
+            {
+              "number": "683 9772"
+            }
+          ]
+        }
+      ],
+      "social": [
+        {
+          "abbreviation": "DSWD",
+          "name": "Department of Social Welfare and Development",
+          "hotliness": [
+            {
+              "number": "443 9074"
+            }
+          ]
+        }
+      ]
+    },
+    "general-mariano-alvarez": {
+      "digital": [
+        {
+          "name": "SMART",
+          "hotlines": [
+            {
+              "number": "0928 687 2839"
+            }
+          ]
+        },
+        {
+          "name": "GLOBE",
+          "hotlines": [
+            {
+              "number": "0916 447 3598"
+            }
+          ]
+        }
+      ],
+      "medical": [
+        {
+          "name": "Municipal Health Office",
+          "hotlines": [
+            {
+              "number": "046 972 2093"
+            }
+          ]
+        }
+      ],
+      "rescue_disaster": [
+        {
+          "abbreviation": "MDRRMO",
+          "name": "Municipal Disaster Risk Reduction and Management Office",
+          "hotlines": [
+            {
+              "number": "046 443 9389"
+            }
+          ]
+        }
+      ]
+    },
+    "kawit": {
+      "general": [
+        {
+          "name": "Kawit Operation Center",
+          "hotlines": [
+            {
+              "number": "0997 253 5503"
+            },
+            {
+              "number": "046 253 5503"
+            }
+          ]
+        },
+        {
+          "name": "Kawit Public Safety Office",
+          "hotlines": [
+            {
+              "number": "0998 967 3356"
+            }
+          ]
+        }
+      ],
+      "fire": [
+        {
+          "abbreviation": "Kawit BFP",
+          "name": "Kawit Bureau of Fire Protection",
+          "hotlines": [
+            {
+              "number": "484 5250"
+            }
+          ]
+        }
+      ],
+      "police": [
+        {
+          "abbreviation": "Kawit MPS",
+          "name": "Kawit Municipal Police Station",
+          "hotlines": [
+            {
+              "number": "0926 815 3057"
+            },
+            {
+              "number": "046 686 7411"
+            }
+          ]
+        }
+      ],
+      "rescue_disaster": [
+        {
+          "abbreviation": "Kawit MDRRMO",
+          "name": "Kawit Municipal Disaster Risk Reduction and Management Office",
+          "hotlines": [
+            {
+              "number": "046 438 2449"
+            }
+          ]
+        }
+      ]
+    },
+    "tagaytay": {
+      "general": [
+        {
+          "name": "Tagaytay Public Safety Office",
+          "hotlines": [
+            {
+              "number": "046 682 0299"
+            }
+          ]
+        }
+      ],
+      "police": [
+        {
+          "abbreviation": "Tagaytay PNP",
+          "name": "Tagaytay Philippines National Police",
+          "hotlines": [
+            {
+              "number": "046 413 1282"
+            }
+          ]
+        }
+      ],
+      "fire": [
+        {
+          "abbreviation": "Tagaytay BFP",
+          "name": "Tagaytay Bureau of Fire Protection",
+          "hotlines": [
+            {
+              "number": "046 483 1193"
+            }
+          ]
+        }
+      ],
+      "rescue_disaster": [
+        {
+          "name": "Tagaytay Rescue",
+          "hotlines": [
+            {
+              "number": "046 483 0446"
+            }
+          ]
+        }
+      ],
+      "medical": [
+        {
+          "name": "Tagaytay City Health Office",
+          "hotlines": [
+            {
+              "number": "046 483 0604"
+            }
+          ]
+        },
+        {
+          "name": "Ospital ng Tagaytay",
+          "hotlines": [
+            {
+              "number": "046 483 2160"
+            }
+          ]
+        },
+        {
+          "name": "Unihealth Tagaytay & Medical Center",
+          "hotlines": [
+            {
+              "number": "046 413 1940"
+            }
+          ]
+        }
+      ]
+    },
+    "tanza": {
+      "rescue_disaster": [
+        {
+          "abbreviation": "Tanza MDRRMO",
+          "name": "Tanza Municipal Disaster Risk Reduction and Management Office",
+          "hotlines": [
+            {
+              "number": "0977 345 5035"
+            },
+            {
+              "number": "0928 757 9030"
+            }
+          ]
+        }
+      ],
+      "police": [
+        {
+          "abbreviation": "Tanza PNP",
+          "name": "Tanza Philippines National Police",
+          "hotlines": [
+            {
+              "number": "0917 850 2555"
+            },
+            {
+              "number": "0928 757 9030"
+            }
+          ]
+        }
+      ],
+      "fire": [
+        {
+          "abbreviation": "Tanza BFP",
+          "name": "Tanza Bureau of Fire Protection",
+          "hotlines": [
+            {
+              "number": "0915 602 1562"
+            },
+            {
+              "number": "046 505 6084"
+            }
+          ]
+        }
+      ]
+    },
+    "naic": {
+      "medical": [
+        {
+          "name": "Naic Emergency Response Unit",
+          "hotlines": [
+            {
+              "number": "410 5725"
+            }
+          ]
+        }
+      ],
+      "police": [
+        {
+          "name": "Municipal Police Station",
+          "hotlines": [
+            {
+              "number": "0917 637 1584"
+            },
+            {
+              "number": "423 1434"
+            }
+          ]
+        }
+      ],
+      "fire": [
+        {
+          "name": "Naic Bureau of Fire Protection",
+          "hotlines": [
+            {
+              "number": "0917 679 7861"
+            },
+            {
+              "number": "412 1481"
+            }
+          ]
+        }
+      ]
+    },
+    "rosario": {
+      "police": [
+        {
+          "abbreviation": "Rosario MPS",
+          "name": "Rosario Municipal Police Station",
+          "hotlines": [
+            {
+              "number": "046 438 1548"
+            }
+          ]
+        }
+      ],
+      "traffic": [
+        {
+          "abbreviation": "MTOC",
+          "name": "Municipal Traffic Operations Center",
+          "hotlines": [
+            {
+              "number": "0939 634 9527",
+              "sim_compatibility": "SMART"
+            },
+            {
+              "number": "0927 453 4863",
+              "sim_compatibility": "GLOBE"
+            }
+          ]
+        }
+      ]
+    },
+    "silang": {
+      "medical": [
+        {
+          "name": "Silang COVID-19 Hotline",
+          "hotlines": [
+            {
+              "number": "0948 714 5188"
+            }
+          ]
+        }
+      ]
+    },
+    "carmona": {
+      "fire": [
+        {
+          "abbreviation": "Carmona BFP",
+          "name": "Carmona Bureau of Fire Protection",
+          "hotlines": [
+            {
+              "number": "046 430 1666"
+            }
+          ]
+        }
+      ],
+      "rescue_disaster": [
+        {
+          "abbreviation": "Carmona MDRRMO",
+          "name": "Carmona Municipal Disaster Risk reduction and Management Office",
+          "hotlines": [
+            {
+              "number": "046 413 0188"
+            }
+          ]
+        }
+      ],
+      "medical": [
+        {
+          "name": "Carmona Municipal Health Office",
+          "hotlines": [
+            {
+              "number": "0915 374 8460"
+            },
+            {
+              "number": "0956 897 6299"
+            },
+            {
+              "number": "046 430 2372"
+            },
+            {
+              "number": "046 443 5397"
+            }
+          ]
+        },
+        {
+          "name": "Pagamutang Bayan ng Carmona",
+          "hotlines": [
+            {
+              "number": "046 430 1644"
+            }
+          ]
+        }
+      ],
+      "social": [
+        {
+          "name": "Municipal Social Welfare and Development Office",
+          "hotlines": [
+            {
+              "number": "046 430 3009"
+            }
+          ]
+        }
+      ],
+      "police": [
+        {
+          "number": "046 430 0911"
+        }
+      ]
+    },
+    "general-trias": {
+      "fire": [
+        {
+          "abbreviation": "General Trias BFP",
+          "name": "General Trias Bureau of Fire Protection",
+          "hotlines": [
+            {
+              "number": "0917 593 1522"
+            },
+            {
+              "number": "046 513 7200"
+            },
+            {
+              "number": "437 7625"
+            }
+          ]
+        }
+      ],
+      "rescue_disaster": [
+        {
+          "abbreviation": "General Trias MDRRMO",
+          "name": "General Trias Municipal Disaster Risk Reduction and Management Office",
+          "hotlines": [
+            {
+              "number": "0917 596 8676"
+            },
+            {
+              "number": "046 513 6986"
+            },
+            {
+              "number": "509 5068"
+            }
+          ]
+        }
+      ],
+      "police": [
+        {
+          "abbreviation": "General Trias PNP",
+          "name": "General Trias Philippine National Police",
+          "hotlines": [
+            {
+              "number": "0917 622 3320"
+            },
+            {
+              "number": "046 513 8600"
+            },
+            {
+              "number": "437 7306"
+            }
+          ]
+        }
+      ]
+    },
+    "amadeo": {
+      "rescue_disaster": [
+        {
+          "name": "Amadeo Rescue",
+          "hotlines": [
+            {
+              "number": "0917 504 7419"
+            }
+          ]
+        }
+      ],
+      "police": [
+        {
+          "abbreviation": "Amadeo MPS",
+          "name": "Amadeo Municipal Police Station",
+          "hotlines": [
+            {
+              "number": "0965 199 3111"
+            }
+          ]
+        }
+      ],
+      "fire": [
+        {
+          "abbreviation": "Amadeo BFP",
+          "name": "Amadeo Bureau of Fire Protection",
+          "hotlines": [
+            {
+              "number": "0915 601 6805"
+            },
+            {
+              "number": "483 2490"
+            }
+          ]
+        }
+      ],
+      "medical": [
+        {
+          "abbreviation": "Amadeo RHU",
+          "name": "Amadeo Rural Health Unit",
+          "hotlines": [
+            {
+              "number": "0965 819 8686"
+            }
+          ]
+        }
+      ]
+    },
+    "maragondon": {
+      "rescue_disaster": [
+        {
+          "abbreviation": "Maragondon MDRRMO",
+          "name": "Maragondon Municipal Disaster Risk Reduction and Management Office",
+          "hotlines": [
+            {
+              "number": "0965 682 5414"
+            },
+            {
+              "number": "0917 604 9696"
+            },
+            {
+              "number": "0956 668 5003"
+            }
+          ]
+        }
+      ],
+      "medical": [
+        {
+          "name": "Maragondon Hospital",
+          "hotlines": [
+            {
+              "number": "046 412 0826"
+            }
+          ]
+        }
+      ],
+      "police": [
+        {
+          "abbreviation": "Maragondon PNP",
+          "name": "Maragondon Philippine National Police",
+          "hotlines": [
+            {
+              "number": "0998 967 3369"
+            },
+            {
+              "number": "046 412 1161"
+            }
+          ]
+        }
+      ],
+      "fire": [
+        {
+          "abbreviation": "Maragondon BFP",
+          "name": "Maragondon Bureau of Fire Protection",
+          "hotlines": [
+            {
+              "number": "046 412 1911"
+            }
+          ]
+        }
+      ]
+    },
+    "noveleta": {
+      "rescue_disaster": [
+        {
+          "abbreviation": "Noveleta LDRRMO",
+          "name": "Noveleta Local Disaster Risk Reduction and Management Office",
+          "hotlines": [
+            {
+              "number": "046 484 2564"
+            }
+          ]
+        }
+      ],
+      "police": [
+        {
+          "abbreviation": "Noveleta MPS",
+          "name": "Noveleta Municipal Police Station",
+          "hotlines": [
+            {
+              "number": "0943 305 3100"
+            },
+            {
+              "number": "046 438 1669"
+            }
+          ]
+        }
+      ]
+    },
+    "cavite-city": {
+      "rescue_disaster": [
+        {
+          "abbreviation": "Cavite City CDRRMO",
+          "name": "Cavite City City Disaster Risk Reduction and Management Office",
+          "hotlines": [
+            {
+              "number": "0926 970 7556"
+            }
+          ]
+        }
+      ],
+      "fire": [
+        {
+          "abbreviation": "Cavite City BFP",
+          "name": "Cavite City Bureau of Fire Protection",
+          "hotlines": [
+            {
+              "number": "431 0308"
+            }
+          ]
+        }
+      ]
+    },
+    "imus": {
+      "medical": [
+        {
+          "name": "City Health Office",
+          "hotlines": [
+            {
+              "number": "0927 878 7777"
+            }
+          ]
+        },
+        {
+          "name": "Overall Disease Surveillance Officer",
+          "hotlines": [
+            {
+              "number": "0919 073 4977"
+            }
+          ]
+        },
+        {
+          "name": "DSO - Health Office 1",
+          "hotlines": [
+            {
+              "number": "0998 370 5428"
+            }
+          ]
+        },
+        {
+          "name": "DSO - Health Office 2",
+          "hotlines": [
+            {
+              "number": "0917 865 0427"
+            }
+          ]
+        },
+        {
+          "name": "DSO - Health Office 3",
+          "hotlines": [
+            {
+              "number": "0932 346 4248"
+            }
+          ]
+        }
+      ]
+    },
+    "dasmarinas": {
+      "rescue_disaster": [
+        {
+          "abbreviation": "Dasmarinas CDRRMO",
+          "name": "Dasmarinas City Disaster Risk Reduction and Management Office",
+          "hotlines": [
+            {
+              "number": "046 513 1766"
+            }
+          ]
+        }
+      ],
+      "medical": [
+        {
+          "name": "Pagamutan ng Dasmarinas",
+          "hotlines": [
+            {
+              "number": "0998 566 5555"
+            },
+            {
+              "number": "046 481 4400"
+            }
+          ]
+        }
+      ],
+      "police": [
+        {
+          "abbreviation": "Dasmarinas PNP",
+          "name": "Dasmarinas Philippine National Police",
+          "hotlines": [
+            {
+              "number": "0956 800 3329"
+            },
+            {
+              "number": "046 416 02545"
+            },
+            {
+              "number": "046 416 2924"
+            }
+          ]
+        }
+      ],
+      "fire": [
+        {
+          "abbreviation": "Dasmarinas BFP",
+          "name": "Dasmarinas Bureau of Fire Protection",
+          "hotlines": [
+            {
+              "number": "046 416 0875"
+            },
+            {
+              "number": "046 424 2537"
+            }
+          ]
+        }
+      ]
+    },
+    "bacoor": {
+      "rescue_disaster": [
+        {
+          "abbreviation": "Bacoor DRRMO",
+          "name": "Bacoor Disaster Risk Reduction and Management Office",
+          "hotlines": [
+            {
+              "number": "046 417 0727"
+            }
+          ]
+        }
+      ],
+      "fire": [
+        {
+          "abbreviation": "Bacoor BFP",
+          "name": "Bacoor Bureau of Fire Protection",
+          "hotlines": [
+            {
+              "number": "046 417 6060"
+            }
+          ]
+        }
+      ]
+    },
+    "mendez": {
+      "general": [
+        {
+          "abbreviation": "Mendez LGU",
+          "name": "Mendez Local Government Unit",
+          "hotlines": [
+            {
+              "number": "0995 724 0980"
+            },
+            {
+              "number": "0920 460 1766"
+            },
+            {
+              "number": "046 413 0601"
+            }
+          ]
+        }
+      ],
+      "fire": [
+        {
+          "abbreviation": "Mendez BFP",
+          "name": "Mendez Bureau of Fire Protection",
+          "hotlines": [
+            {
+              "number": "046 413 2237"
+            }
+          ]
+        }
+      ]
+    },
+    "magallanes": {
+      "general": [
+        {
+          "abbreviation": "Magallanes LGU",
+          "name": "Magallanes Local Government Unit",
+          "hotlines": [
+            {
+              "number": "0915 275 9884"
+            }
+          ]
+        }
+      ],
+      "fire": [
+        {
+          "abbreviation": "Magallanes BFP",
+          "name": "Magallanes Bureau of Fire Protection",
+          "hotlines": [
+            {
+              "number": "046 529 6245"
+            }
+          ]
+        }
+      ]
+    },
+    "general-emilio-aguinaldo": {
+      "medical": [
+        {
+          "abbreviation": "Gen. Emilio Aguinaldo RHU",
+          "name": "Gen. Emilio Aguinaldo Rural Health Unit",
+          "hotlines": [
+            {
+              "number": "0998 578 9793"
+            },
+            {
+              "number": "0917 571 4422"
+            }
+          ]
+        }
+      ],
+      "fire": [
+        {
+          "abbreviation": "Gen. Emilio Aguinaldo BFP",
+          "name": "Gen. Emilio Aguinaldo Bureau of Fire Protection",
+          "hotlines": [
+            {
+              "number": "0921 458 5937"
+            }
+          ]
+        }
+      ]
+    },
+    "ternate": {
+      "general": [
+        {
+          "name": "Office of the Mayor",
+          "hotlines": [
+            {
+              "number": "046 402 2309"
+            }
+          ]
+        }
+      ],
+      "rescue_disaster": [
+        {
+          "abbreviation": "Ternate DRRMO",
+          "name": "Ternate Disaster Risk Reduction and Management Office",
+          "hotlines": [
+            {
+              "number": "0920 111 2811"
+            }
+          ]
+        }
+      ],
+      "fire": [
+        {
+          "abbreviation": "Ternate BFP",
+          "name": "Ternate Bureau of Fire Protection",
+          "hotlines": [
+            {
+              "number": "0915 885 1640"
+            }
+          ]
+        }
+      ],
+      "police": [
+        {
+          "abbreviation": "Ternate PNP",
+          "name": "Ternate Philippine National Police",
+          "hotlines": [
+            {
+              "number": "0977 682 2553"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

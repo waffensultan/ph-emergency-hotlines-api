@@ -1,0 +1,24 @@
+{
+  "rescue_disaster": [
+    {
+      "abbreviation": "Cavite City CDRRMO",
+      "name": "Cavite City City Disaster Risk Reduction and Management Office",
+      "hotlines": [
+        {
+          "number": "0926 970 7556"
+        }
+      ]
+    }
+  ],
+  "fire": [
+    {
+      "abbreviation": "Cavite City BFP",
+      "name": "Cavite City Bureau of Fire Protection",
+      "hotlines": [
+        {
+          "number": "431 0308"
+        }
+      ]
+    }
+  ]
+}

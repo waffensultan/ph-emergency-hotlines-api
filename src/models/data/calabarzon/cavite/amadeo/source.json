@@ -1,0 +1,48 @@
+{
+  "rescue_disaster": [
+    {
+      "name": "Amadeo Rescue",
+      "hotlines": [
+        {
+          "number": "0917 504 7419"
+        }
+      ]
+    }
+  ],
+  "police": [
+    {
+      "abbreviation": "Amadeo MPS",
+      "name": "Amadeo Municipal Police Station",
+      "hotlines": [
+        {
+          "number": "0965 199 3111"
+        }
+      ]
+    }
+  ],
+  "fire": [
+    {
+      "abbreviation": "Amadeo BFP",
+      "name": "Amadeo Bureau of Fire Protection",
+      "hotlines": [
+        {
+          "number": "0915 601 6805"
+        },
+        {
+          "number": "483 2490"
+        }
+      ]
+    }
+  ],
+  "medical": [
+    {
+      "abbreviation": "Amadeo RHU",
+      "name": "Amadeo Rural Health Unit",
+      "hotlines": [
+        {
+          "number": "0965 819 8686"
+        }
+      ]
+    }
+  ]
+}

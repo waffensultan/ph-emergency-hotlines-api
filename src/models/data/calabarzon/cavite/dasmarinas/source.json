@@ -1,0 +1,57 @@
+{
+  "rescue_disaster": [
+    {
+      "abbreviation": "Dasmarinas CDRRMO",
+      "name": "Dasmarinas City Disaster Risk Reduction and Management Office",
+      "hotlines": [
+        {
+          "number": "046 513 1766"
+        }
+      ]
+    }
+  ],
+  "medical": [
+    {
+      "name": "Pagamutan ng Dasmarinas",
+      "hotlines": [
+        {
+          "number": "0998 566 5555"
+        },
+        {
+          "number": "046 481 4400"
+        }
+      ]
+    }
+  ],
+  "police": [
+    {
+      "abbreviation": "Dasmarinas PNP",
+      "name": "Dasmarinas Philippine National Police",
+      "hotlines": [
+        {
+          "number": "0956 800 3329"
+        },
+        {
+          "number": "046 416 02545"
+        },
+        {
+          "number": "046 416 2924"
+        }
+      ]
+    }
+  ],
+  "fire": [
+    {
+      "abbreviation": "Dasmarinas BFP",
+      "name": "Dasmarinas Bureau of Fire Protection",
+      "hotlines": [
+        {
+          "number": "046 416 0875"
+        },
+        {
+          "number": "046 424 2537"
+        }
+      ]
+    }
+  ]
+}

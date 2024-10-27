@@ -1,0 +1,53 @@
+{
+  "fire": [
+    {
+      "abbreviation": "General Trias BFP",
+      "name": "General Trias Bureau of Fire Protection",
+      "hotlines": [
+        {
+          "number": "0917 593 1522"
+        },
+        {
+          "number": "046 513 7200"
+        },
+        {
+          "number": "437 7625"
+        }
+      ]
+    }
+  ],
+  "rescue_disaster": [
+    {
+      "abbreviation": "General Trias MDRRMO",
+      "name": "General Trias Municipal Disaster Risk Reduction and Management Office",
+      "hotlines": [
+        {
+          "number": "0917 596 8676"
+        },
+        {
+          "number": "046 513 6986"
+        },
+        {
+          "number": "509 5068"
+        }
+      ]
+    }
+  ],
+  "police": [
+    {
+      "abbreviation": "General Trias PNP",
+      "name": "General Trias Philippine National Police",
+      "hotlines": [
+        {
+          "number": "0917 622 3320"
+        },
+        {
+          "number": "046 513 8600"
+        },
+        {
+          "number": "437 7306"
+        }
+      ]
+    }
+  ]
+}

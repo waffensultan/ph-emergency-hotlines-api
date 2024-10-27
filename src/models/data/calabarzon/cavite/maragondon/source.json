@@ -1,0 +1,54 @@
+{
+  "rescue_disaster": [
+    {
+      "abbreviation": "Maragondon MDRRMO",
+      "name": "Maragondon Municipal Disaster Risk Reduction and Management Office",
+      "hotlines": [
+        {
+          "number": "0965 682 5414"
+        },
+        {
+          "number": "0917 604 9696"
+        },
+        {
+          "number": "0956 668 5003"
+        }
+      ]
+    }
+  ],
+  "medical": [
+    {
+      "name": "Maragondon Hospital",
+      "hotlines": [
+        {
+          "number": "046 412 0826"
+        }
+      ]
+    }
+  ],
+  "police": [
+    {
+      "abbreviation": "Maragondon PNP",
+      "name": "Maragondon Philippine National Police",
+      "hotlines": [
+        {
+          "number": "0998 967 3369"
+        },
+        {
+          "number": "046 412 1161"
+        }
+      ]
+    }
+  ],
+  "fire": [
+    {
+      "abbreviation": "Maragondon BFP",
+      "name": "Maragondon Bureau of Fire Protection",
+      "hotlines": [
+        {
+          "number": "046 412 1911"
+        }
+      ]
+    }
+  ]
+}
