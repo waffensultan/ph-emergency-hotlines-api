@@ -2,8 +2,8 @@ import fs from 'fs';
 import path from 'path';
 
 const generate_source_files = () => {
-    const file_path = path.resolve(__dirname, '../models/source.json');
-    const data = JSON.parse(fs.readFileSync(file_path, 'utf-8'))[0];
+    const central_source_JSON = path.resolve(__dirname, '../models/data/source.json');
+    const data = JSON.parse(fs.readFileSync(central_source_JSON, 'utf-8'))[0];
 
     const regions = Object.keys(data).slice(1); // Exclude national for now
 
