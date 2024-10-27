@@ -4,7 +4,7 @@ import fs from 'fs';
 import path from 'path';
 
 const api_handler = (req: Request, res: Response) => {
-    const { region, province, city_or_municipality, } = req.params;
+    const { region, province, city_or_municipality } = req.params;
     const { hotline } = req.query;
 
     let file_path;
