@@ -12,7 +12,7 @@ Easily retrieve critical emergency hotlines information for your organization or
 ```bash
 https://ph-emergency-hotlines-api.onrender.com/api/{region}/{province}/{city_or_municipality}?hotline={hotline_type}
 ```
-* #### Example:
+* #### Example (JavaScript):
 ```javascript
 try {
     const response = await fetch('https://ph-emergency-hotlines-api.onrender.com/api/calabarzon/cavite/alfonso?hotline=police')
