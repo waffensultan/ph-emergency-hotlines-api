@@ -42,6 +42,8 @@ Your server will now be running locally in your machine!
 ## Contributing
 Contributions are welcomed and appreciated. 
 
+---
+
 - #### Adding new fields
 ```
 region: {
@@ -79,6 +81,8 @@ Available hotline types are:
 - digital
 
 Feel free to add more.
+
+---
 
 - #### Generating new source files
 After creating new fields, run the following command in your preferred CLI:
