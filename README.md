@@ -2,6 +2,11 @@
 
 Easily retrieve critical emergency hotlines information for your organization or project with just one API call.
 
+# Table of Contents
+- [Usage](#usage)
+- [Getting Started](#getting-started)
+- [Contributing](#contributing)
+
 ## Usage
 * #### API Call Structure
 ```bash
@@ -42,9 +47,12 @@ Your server will now be running locally in your machine!
 ## Contributing
 Contributions are welcomed and appreciated. 
 
+- [Adding new fields](#adding-new-fields)
+- [Generating new source files](#generating-new-source-files)
+
 ---
 
-- #### Adding new fields
+- ### Adding new fields
 ```
 region: {
     province: {
@@ -84,7 +92,7 @@ Feel free to add more.
 
 ---
 
-- #### Generating new source files
+- ### Generating new source files
 After creating new fields, run the following command in your preferred CLI:
 ```bash
 npm generate-source-files
