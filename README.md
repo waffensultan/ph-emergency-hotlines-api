@@ -69,3 +69,5 @@ After creating new fields, run the following command in your preferred CLI:
 npm generate-source-files
 ```
 What it does is run `scripts/generate-source-files.ts` which automates the process of creating separate `source.json` files for each level (regional, provincial, and city/municipal).
+
+For scalability, separating data into individual `source.json` files is significantly more efficient than relying on a single `source.json` file. This approach greatly reduces GET request response times, resulting in faster data retrieval, previously taking 100+ ms now down to 10-90 ms.
