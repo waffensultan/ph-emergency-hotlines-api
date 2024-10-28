@@ -95,7 +95,7 @@ Feel free to add more.
 - ### Generating new source files
 After creating new fields, run the following command in your preferred CLI:
 ```bash
-npm generate-source-files
+npm run generate-source-files
 ```
 What it does is run `scripts/generate-source-files.ts` which automates the process of creating separate `source.json` files for each level (regional, provincial, and city/municipal).
 
