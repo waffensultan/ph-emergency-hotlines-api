@@ -47,21 +47,38 @@ Contributions are welcomed and appreciated.
 region: {
     province: {
         city_municipality: {
-            "abbreviation"?: string,
-            "name": string,
-            "hotlines": [
+            "hotline_type": [
                 {
-                    "number": string,
-                    "range"?: string,
-                    "location_code"?: string;
+                    "abbreviation"?: string,
+                    "name": string,
+                    "hotlines": [
+                        {
+                            "number": string,
+                            "range"?: string,
+                            "location_code"?: string;
+                        }
+                    ]
                 }
             ]
         }
     }
 }
 ```
+
 The JSON structure above describes the complete format for the central `source.json` file, located in `models/data/source.json`.
 Feel free to make contributions or PRs by adding new data to it.
+
+Available hotline types are:
+- general
+- police
+- medical
+- rescue_disaster
+- earthquake_seismic
+- traffic
+- social
+- digital
+
+Feel free to add more.
 
 - #### Generating new source files
 After creating new fields, run the following command in your preferred CLI:
