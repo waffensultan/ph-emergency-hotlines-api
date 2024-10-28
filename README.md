@@ -43,7 +43,7 @@ Your server will now be running locally in your machine!
 Contributions are welcomed and appreciated. 
 
 - #### Adding new fields
-```JSON
+```
 region: {
     province: {
         city_municipality: {
