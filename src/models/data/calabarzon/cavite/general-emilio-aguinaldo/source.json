@@ -1,0 +1,27 @@
+{
+  "medical": [
+    {
+      "abbreviation": "Gen. Emilio Aguinaldo RHU",
+      "name": "Gen. Emilio Aguinaldo Rural Health Unit",
+      "hotlines": [
+        {
+          "number": "0998 578 9793"
+        },
+        {
+          "number": "0917 571 4422"
+        }
+      ]
+    }
+  ],
+  "fire": [
+    {
+      "abbreviation": "Gen. Emilio Aguinaldo BFP",
+      "name": "Gen. Emilio Aguinaldo Bureau of Fire Protection",
+      "hotlines": [
+        {
+          "number": "0921 458 5937"
+        }
+      ]
+    }
+  ]
+}

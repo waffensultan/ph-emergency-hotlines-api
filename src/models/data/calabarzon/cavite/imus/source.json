@@ -1,0 +1,44 @@
+{
+  "medical": [
+    {
+      "name": "City Health Office",
+      "hotlines": [
+        {
+          "number": "0927 878 7777"
+        }
+      ]
+    },
+    {
+      "name": "Overall Disease Surveillance Officer",
+      "hotlines": [
+        {
+          "number": "0919 073 4977"
+        }
+      ]
+    },
+    {
+      "name": "DSO - Health Office 1",
+      "hotlines": [
+        {
+          "number": "0998 370 5428"
+        }
+      ]
+    },
+    {
+      "name": "DSO - Health Office 2",
+      "hotlines": [
+        {
+          "number": "0917 865 0427"
+        }
+      ]
+    },
+    {
+      "name": "DSO - Health Office 3",
+      "hotlines": [
+        {
+          "number": "0932 346 4248"
+        }
+      ]
+    }
+  ]
+}

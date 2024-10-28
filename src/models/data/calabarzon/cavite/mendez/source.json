@@ -1,0 +1,30 @@
+{
+  "general": [
+    {
+      "abbreviation": "Mendez LGU",
+      "name": "Mendez Local Government Unit",
+      "hotlines": [
+        {
+          "number": "0995 724 0980"
+        },
+        {
+          "number": "0920 460 1766"
+        },
+        {
+          "number": "046 413 0601"
+        }
+      ]
+    }
+  ],
+  "fire": [
+    {
+      "abbreviation": "Mendez BFP",
+      "name": "Mendez Bureau of Fire Protection",
+      "hotlines": [
+        {
+          "number": "046 413 2237"
+        }
+      ]
+    }
+  ]
+}

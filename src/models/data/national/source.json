@@ -1,0 +1,110 @@
+{
+    "general": [
+        {
+            "name": "Emergency Hotline (Nationwide)",
+            "hotlines": [
+                {
+                    "number": "911"
+                }
+            ]
+        }
+    ],
+    "police": [
+        {
+            "abbreviation": "PNP",
+            "name": "Philippine National Police",
+            "hotlines": [
+                {
+                    "number": "117"
+                },
+                {
+                    "number": "(02) 8722-0650"
+                }
+            ]
+        }
+    ],
+    "fire": [
+        {
+            "abbreviation": "BFP",
+            "name": "Bureau of Fire Protection",
+            "hotlines": [
+                {
+                    "number": "(02) 8426-0219"
+                },
+                {
+                    "number": "(02) 8426-0246"
+                }
+            ]
+        }
+    ] ,
+    "medical": [
+        {
+            "name": "Red Cross",
+            "hotlines": [
+                {
+                    "number": "143"
+                },
+                {
+                    "number" : "(02) 8527-8385",
+                    "range": "95"
+                }
+            ]
+        }
+    ],
+    "rescue_disaster": [
+        {
+            "abbreviation": "NDRRMC",
+            "name": "National Disaster Risk Reduction and Management Council",
+            "hotlines": [
+                {
+                    "number": "(02) 8911-5061",
+                    "range": "65",
+                    "location_code": "LOC 100"
+                }
+            ]
+        },
+        {
+            "name": "Coast Guard",
+            "hotlines": [
+                {
+                    "number": "(02) 8527-3877"
+                }
+            ]
+        }
+    ],
+    "weather": [
+        {
+            "abbreviation": "PAGASA",
+            "name": "Philippine Atmospheric, Geophysical and Astronomical Services Administration",
+            "hotlines": [
+                {
+                    "number": "(02) 8284-0800"
+                }
+            ]
+        }
+    ],
+    "earthquake_seismic": [
+        {
+            "abbreviation": "PHIVOLCS",
+            "name": "Philippine Institute of Volcanology and Seismology",
+            "hotlines": [
+                {
+                    "number": "(02) 8426-1468",
+                    "range": "79"
+                }
+            ]
+        }
+    ],
+    "traffic": [
+        {
+            "abbreviation": "MMDA",
+            "name": "Metropolitan Manila Development Authority",
+            "hotlines": [
+                {
+                    "number": "(02) 882-4151",
+                    "range": "77"
+                }
+            ]
+        }
+    ]
+}

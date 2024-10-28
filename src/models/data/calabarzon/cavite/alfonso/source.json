@@ -1,0 +1,68 @@
+{
+  "police": [
+    {
+      "abbreviation": "Alfonso Philippine National Police",
+      "name": "Alfonso PNP",
+      "hotlines": [
+        {
+          "number": "0906 536 6135"
+        },
+        {
+          "number": "0998 967 3364"
+        },
+        {
+          "number": "046 522 0800"
+        }
+      ]
+    }
+  ],
+  "fire": [
+    {
+      "abbreviation": "BFP",
+      "name": "Bureau of Fire Protection",
+      "hotlines": [
+        {
+          "number": "0915 602 2113"
+        },
+        {
+          "number": "0929 663 2424"
+        },
+        {
+          "number": "046 522 0480"
+        }
+      ]
+    }
+  ],
+  "medical": [
+    {
+      "name": "Hospital",
+      "hotlines": [
+        {
+          "number": "0917 306 2419"
+        },
+        {
+          "number": "415 0190"
+        }
+      ]
+    },
+    {
+      "name": "Ambulance",
+      "hotlines": [
+        {
+          "number": "0917 833 0206"
+        }
+      ]
+    }
+  ],
+  "rescue_disaster": [
+    {
+      "abbreviation": "MDRRMO",
+      "name": "Municipal Disaster Risk Reduction and Management Office",
+      "hotlines": [
+        {
+          "number": "046 443 9083"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "general": [
+    {
+      "name": "Municipal Command Center",
+      "hotlines": [
+        {
+          "number": "046 460 4708"
+        },
+        {
+          "number": "046 460 4709"
+        }
+      ]
+    }
+  ],
+  "police": [
+    {
+      "abbreviation": "Indang PNP",
+      "name": "Indang Philippine National Police",
+      "hotlines": [
+        {
+          "number": "0949 184 9145"
+        }
+      ]
+    }
+  ],
+  "rescue_disaster": [
+    {
+      "abbreviation": "LDRRMO",
+      "name": "Local Disaster Risk Reduction Management Office",
+      "hotlines": [
+        {
+          "number": "0915 206 6929"
+        },
+        {
+          "number": "0916 183 1458"
+        }
+      ]
+    }
+  ],
+  "fire": [
+    {
+      "abbreviation": "BFP",
+      "name": "Bureau of Fire Protection",
+      "hotlines": [
+        {
+          "number": "0915 603 4245"
+        },
+        {
+          "number": "415 1217"
+        }
+      ]
+    }
+  ],
+  "medical": [
+    {
+      "name": "Health Center",
+      "hotlines": [
+        {
+          "number": "415 0286"
+        },
+        {
+          "number": "683 9772"
+        }
+      ]
+    }
+  ],
+  "social": [
+    {
+      "abbreviation": "DSWD",
+      "name": "Department of Social Welfare and Development",
+      "hotliness": [
+        {
+          "number": "443 9074"
+        }
+      ]
+    }
+  ]
+}

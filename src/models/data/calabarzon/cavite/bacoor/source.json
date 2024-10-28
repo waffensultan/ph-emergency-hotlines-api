@@ -1,0 +1,24 @@
+{
+  "rescue_disaster": [
+    {
+      "abbreviation": "Bacoor DRRMO",
+      "name": "Bacoor Disaster Risk Reduction and Management Office",
+      "hotlines": [
+        {
+          "number": "046 417 0727"
+        }
+      ]
+    }
+  ],
+  "fire": [
+    {
+      "abbreviation": "Bacoor BFP",
+      "name": "Bacoor Bureau of Fire Protection",
+      "hotlines": [
+        {
+          "number": "046 417 6060"
+        }
+      ]
+    }
+  ]
+}

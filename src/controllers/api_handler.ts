@@ -6,44 +6,36 @@ import path from 'path';
 const api_handler = (req: Request, res: Response) => {
     const { region, province, city_or_municipality } = req.params;
     const { hotline } = req.query;
+    const keys = [region, province, city_or_municipality].filter(Boolean);
 
-    let file_path;
-    let source;
+    const file_path = '../models/data/' + keys.map((param, index) => param + (index !== keys.length - 1 ? "/" : "")).join(''); 
+    let data;
 
     try {
-        file_path = path.resolve(__dirname, '../models/source.json');
-        source = JSON.parse(fs.readFileSync(file_path, 'utf-8'))[0];
-    } catch (error) {
-        console.error('Error reading source JSON file: ', error)
+        const file = path.resolve(__dirname, `${file_path}/source.json`);
+        data = JSON.parse(fs.readFileSync(file, 'utf-8'))
 
+        if (hotline) {
+            data = data[hotline.toString()];
+        }
+
+        if (data) {
+            res.json({
+                status: 'success',
+                data: data
+            })
+        } else {
+            res.status(400).json({
+                status: "error",
+                error: "No data found for the specified parameters."
+            })
+        }
+    } catch (erorr) {
         res.status(503).json({
-            status: "error",
-            message: 'Could not load data from source.'
-        })
-    }
-
-    const keys = [region, province, city_or_municipality].filter(Boolean);
-    let response = get_nested_data(source, keys);
-
-    if (hotline) {
-        response = response[hotline.toString()];
-    }
-
-    if (!response) {
-        res.status(400).json({
             status: 'error',
-            error: 'No data found for the specified parameters.'
-        })
-    } else {
-        res.json({
-            status: 'success',
-            data: response
+            message: 'Could not retrieve data from source.'
         })
     }
-}
-
-const get_nested_data = (data: any, keys: any) => {
-    return keys.reduce((acc: any, key: any) => (acc && acc[key] ? acc[key] : null), data);
 }
 
 export default api_handler;

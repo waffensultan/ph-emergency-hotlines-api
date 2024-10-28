@@ -1,0 +1,29 @@
+{
+  "police": [
+    {
+      "abbreviation": "Rosario MPS",
+      "name": "Rosario Municipal Police Station",
+      "hotlines": [
+        {
+          "number": "046 438 1548"
+        }
+      ]
+    }
+  ],
+  "traffic": [
+    {
+      "abbreviation": "MTOC",
+      "name": "Municipal Traffic Operations Center",
+      "hotlines": [
+        {
+          "number": "0939 634 9527",
+          "sim_compatibility": "SMART"
+        },
+        {
+          "number": "0927 453 4863",
+          "sim_compatibility": "GLOBE"
+        }
+      ]
+    }
+  ]
+}

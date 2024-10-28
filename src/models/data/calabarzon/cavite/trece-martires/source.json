@@ -1,0 +1,33 @@
+{
+  "police": [
+    {
+      "abbreviation": "Trece Martires City PNP",
+      "name": "Trece Martires City National Philippine Force",
+      "hotlines": [
+        {
+          "number": "0977 680 1240"
+        },
+        {
+          "number": "686 3460"
+        }
+      ]
+    }
+  ],
+  "rescue_disaster": [
+    {
+      "abbreviation": "CDRRMO",
+      "name": "City Disaster Risk Reduction and Maintenance Office",
+      "hotlines": [
+        {
+          "number": "0977 676 3491"
+        },
+        {
+          "number": "0949 629 8026"
+        },
+        {
+          "number": "419 3858"
+        }
+      ]
+    }
+  ]
+}

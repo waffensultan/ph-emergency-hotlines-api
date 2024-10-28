@@ -1,0 +1,41 @@
+{
+  "digital": [
+    {
+      "name": "SMART",
+      "hotlines": [
+        {
+          "number": "0928 687 2839"
+        }
+      ]
+    },
+    {
+      "name": "GLOBE",
+      "hotlines": [
+        {
+          "number": "0916 447 3598"
+        }
+      ]
+    }
+  ],
+  "medical": [
+    {
+      "name": "Municipal Health Office",
+      "hotlines": [
+        {
+          "number": "046 972 2093"
+        }
+      ]
+    }
+  ],
+  "rescue_disaster": [
+    {
+      "abbreviation": "MDRRMO",
+      "name": "Municipal Disaster Risk Reduction and Management Office",
+      "hotlines": [
+        {
+          "number": "046 443 9389"
+        }
+      ]
+    }
+  ]
+}

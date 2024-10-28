@@ -1,0 +1,27 @@
+{
+  "rescue_disaster": [
+    {
+      "abbreviation": "Noveleta LDRRMO",
+      "name": "Noveleta Local Disaster Risk Reduction and Management Office",
+      "hotlines": [
+        {
+          "number": "046 484 2564"
+        }
+      ]
+    }
+  ],
+  "police": [
+    {
+      "abbreviation": "Noveleta MPS",
+      "name": "Noveleta Municipal Police Station",
+      "hotlines": [
+        {
+          "number": "0943 305 3100"
+        },
+        {
+          "number": "046 438 1669"
+        }
+      ]
+    }
+  ]
+}

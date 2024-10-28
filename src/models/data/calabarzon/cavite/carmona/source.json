@@ -1,0 +1,66 @@
+{
+  "fire": [
+    {
+      "abbreviation": "Carmona BFP",
+      "name": "Carmona Bureau of Fire Protection",
+      "hotlines": [
+        {
+          "number": "046 430 1666"
+        }
+      ]
+    }
+  ],
+  "rescue_disaster": [
+    {
+      "abbreviation": "Carmona MDRRMO",
+      "name": "Carmona Municipal Disaster Risk reduction and Management Office",
+      "hotlines": [
+        {
+          "number": "046 413 0188"
+        }
+      ]
+    }
+  ],
+  "medical": [
+    {
+      "name": "Carmona Municipal Health Office",
+      "hotlines": [
+        {
+          "number": "0915 374 8460"
+        },
+        {
+          "number": "0956 897 6299"
+        },
+        {
+          "number": "046 430 2372"
+        },
+        {
+          "number": "046 443 5397"
+        }
+      ]
+    },
+    {
+      "name": "Pagamutang Bayan ng Carmona",
+      "hotlines": [
+        {
+          "number": "046 430 1644"
+        }
+      ]
+    }
+  ],
+  "social": [
+    {
+      "name": "Municipal Social Welfare and Development Office",
+      "hotlines": [
+        {
+          "number": "046 430 3009"
+        }
+      ]
+    }
+  ],
+  "police": [
+    {
+      "number": "046 430 0911"
+    }
+  ]
+}

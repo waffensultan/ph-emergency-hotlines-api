@@ -1,0 +1,44 @@
+{
+  "rescue_disaster": [
+    {
+      "abbreviation": "Tanza MDRRMO",
+      "name": "Tanza Municipal Disaster Risk Reduction and Management Office",
+      "hotlines": [
+        {
+          "number": "0977 345 5035"
+        },
+        {
+          "number": "0928 757 9030"
+        }
+      ]
+    }
+  ],
+  "police": [
+    {
+      "abbreviation": "Tanza PNP",
+      "name": "Tanza Philippines National Police",
+      "hotlines": [
+        {
+          "number": "0917 850 2555"
+        },
+        {
+          "number": "0928 757 9030"
+        }
+      ]
+    }
+  ],
+  "fire": [
+    {
+      "abbreviation": "Tanza BFP",
+      "name": "Tanza Bureau of Fire Protection",
+      "hotlines": [
+        {
+          "number": "0915 602 1562"
+        },
+        {
+          "number": "046 505 6084"
+        }
+      ]
+    }
+  ]
+}

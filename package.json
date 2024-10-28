@@ -6,7 +6,9 @@
     "build": "npx tsc",
     "start": "node dist/index.js",
     "dev": "ts-node-dev src/server.ts",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "generate-source-files": "ts-node src/scripts/generate-source-files.ts",
+    "update-parent-source": "ts-node src/scripts/update-parent-source.ts"
   },
   "keywords": [],
   "author": "",
