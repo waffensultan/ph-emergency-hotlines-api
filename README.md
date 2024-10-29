@@ -57,7 +57,7 @@ Contributions are welcomed and appreciated.
 region: {
     province: {
         city_municipality: {
-            "hotline_type": [
+            hotline_type: [
                 {
                     "abbreviation"?: string,
                     "name": string,
@@ -76,9 +76,8 @@ region: {
 ```
 
 The JSON structure above describes the complete format for the central `source.json` file, located in `models/data/source.json`.
-Feel free to make contributions or PRs by adding new data to it.
 
-Available hotline types are:
+Available hotline types (hotline_type) are:
 - general
 - police
 - medical
@@ -88,7 +87,7 @@ Available hotline types are:
 - social
 - digital
 
-Feel free to add more.
+You can also add more as you see fit! Feel free to make contributions or PRs by adding new data to the central `source.json` and ending with the step below :)
 
 ---
 
