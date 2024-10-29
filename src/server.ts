@@ -1,11 +1,8 @@
-import type { Application} from "express";
-
+import express, { type Application } from "express";
 import api_router from "./routes/api_router";
 
-import express from "express";
-
 const server: Application = express();
-const port = process.env.PORT || 8000;
+const port = process.env.PORT || 8000; // Defaults to Port 8000 if not specified
 
 server.use(api_router);
 

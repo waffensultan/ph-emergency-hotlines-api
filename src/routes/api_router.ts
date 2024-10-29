@@ -1,9 +1,19 @@
 import express, { type Response } from "express";
+
+import { rateLimit } from "express-rate-limit";
 import cors from 'cors';
 
 import api_handler from "../controllers/api_handler";
 
 const api_router = express.Router();
+
+const rate_limiter = rateLimit({
+    windowMs: 15 * 60 * 1000, // 15 minutes
+    limit: 100, // Limit each IP to 100 requests per window (15 minutes currently)
+    standardHeaders: 'draft-7',
+    legacyHeaders: false
+})
+api_router.use(rate_limiter);
 
 const cors_options = {
     origin: "*",
