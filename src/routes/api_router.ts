@@ -9,7 +9,7 @@ const api_router = express.Router();
 
 const rate_limiter = rateLimit({
     windowMs: 15 * 60 * 1000, // 15 minutes
-    limit: 100, // Limit each IP to 100 requests per window (15 minutes currently)
+    limit: 100, // Limit each IP to 100 requests per window (Each window is 15 minutes -- from windowMs)
     standardHeaders: 'draft-7',
     legacyHeaders: false
 })
