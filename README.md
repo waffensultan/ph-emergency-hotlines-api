@@ -1,6 +1,6 @@
 # Welcome to [Philippines Emergency Hotlines API](https://github.com/waffensultan/philipppines-emergency-hotlines-api)!
 
-Easily retrieve critical emergency hotlines information for your organization or project with just one API call.
+Easily retrieve critical emergency hotlines information in the Philippines with just one API call.
 
 # Table of Contents
 - [Usage](#usage)
