@@ -10,7 +10,7 @@ const generate_source_files = () => {
 
     const regions = Object.keys(data).slice(1); // Exclude national for now
 
-    /* NOTE: We can also modify the code below to use recursion to achieve the same functionality */
+    /* We can refactor the code below with recursion */
     regions.forEach((region) => {
         generate_source_json([region], data);
 

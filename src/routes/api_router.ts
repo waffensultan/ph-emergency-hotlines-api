@@ -15,6 +15,7 @@ const rate_limiter = rateLimit({
 });
 api_router.use(rate_limiter);
 
+/* Enable only the GET method (for now) and allow CORS (Cross-Origin Resource Sharing) */
 const cors_options = {
     origin: "*",
     methods: "GET",
