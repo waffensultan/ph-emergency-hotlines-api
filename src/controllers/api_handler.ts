@@ -8,12 +8,11 @@ const api_handler = (req: Request, res: Response) => {
     const { hotline } = req.query;
     const keys = [region, province, city_or_municipality].filter(Boolean);
 
-    const file_path =
-        "../models/data/" +
+    /* Retrieve the source file based on the user's query parameters */
+    const file_path = 
+        "../models/data/" + 
         keys
-            .map(
-                (param, index) => param + (index !== keys.length - 1 ? "/" : "")
-            )
+            .map((param, index) => param + (index !== keys.length - 1 ? "/" : ""))
             .join("");
     let data;
 
