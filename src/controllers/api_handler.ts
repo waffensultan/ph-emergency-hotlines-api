@@ -9,20 +9,19 @@ const api_handler = (req: Request, res: Response) => {
     const keys = [region, province, city_or_municipality].filter(Boolean);
 
     /* Retrieve the source file based on the user's query parameters */
-    const file_path = 
-        "../models/data/" + 
+    const file_path =
+        "../models/data/" +
         keys
             .map((param, index) => param + (index !== keys.length - 1 ? "/" : ""))
-            .join("");
-    let data;
+            .join("")
+        + "/source.json";
 
     try {
-        const file = path.resolve(__dirname, `${file_path}/source.json`);
-        data = JSON.parse(fs.readFileSync(file, "utf-8"));
+        const file = path.resolve(__dirname, file_path);
 
-        if (hotline) {
-            data = data[hotline.toString()];
-        }
+        const data = hotline
+            ? JSON.parse(fs.readFileSync(file, "utf-8"))[hotline.toString()]
+            : JSON.parse(fs.readFileSync(file, "utf-8"));
 
         if (data) {
             res.json({
@@ -35,7 +34,7 @@ const api_handler = (req: Request, res: Response) => {
                 error: "No data found for the specified parameters.",
             });
         }
-    } catch (erorr) {
+    } catch (error) {
         res.status(503).json({
             status: "error",
             message: "Could not retrieve data from source.",

@@ -3,7 +3,7 @@ import express, { type Response } from "express";
 import { rateLimit } from "express-rate-limit";
 import cors from "cors";
 
-import api_handler from "../controllers/api_handler";
+import api_handler from "../controllers/api_handler"
 
 const api_router = express.Router();
 

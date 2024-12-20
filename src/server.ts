@@ -1,4 +1,5 @@
 import express, { type Application } from "express";
+
 import api_router from "./routes/api_router";
 
 const server: Application = express();
