@@ -1,7 +1,16 @@
 {
     "name": "philippines-emergency-hotlines-api",
+    "description": "Easily retrieve critical emergency hotlines information in the Philippines with just one API call.",
+    "author": "Waffen Sultan Ampatua",
+    "license": "ISC",
     "version": "1.0.0",
     "main": "index.js",
+    "keywords": [
+        "api",
+        "philippines",
+        "emergency",
+        "hotlines"
+    ],
     "scripts": {
         "build": "npx tsc",
         "start": "node dist/index.js",
@@ -10,15 +19,6 @@
         "generate-source-files": "ts-node src/scripts/generate-source-files.ts",
         "update-parent-source": "ts-node src/scripts/update-parent-source.ts"
     },
-    "keywords": [
-        "api",
-        "philippines",
-        "emergency",
-        "hotlines"
-    ],
-    "author": "Waffen Sultan Ampatua",
-    "license": "ISC",
-    "description": "Easily retrieve critical emergency hotlines information in the Philippines with just one API call.",
     "dependencies": {
         "cors": "^2.8.5",
         "dotenv": "^16.4.5",
