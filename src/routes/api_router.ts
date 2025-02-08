@@ -1,9 +1,7 @@
 import express, { type Response } from "express";
-
 import { rateLimit } from "express-rate-limit";
 import cors from "cors";
-
-import api_handler from "../controllers/api_handler"
+import api_handler from "../controllers/api_handler";
 
 const api_router = express.Router();
 
@@ -13,7 +11,6 @@ const rate_limiter = rateLimit({
     standardHeaders: "draft-7",
     legacyHeaders: false,
 });
-api_router.use(rate_limiter);
 
 /* Enable only the GET method (for now) and allow CORS (Cross-Origin Resource Sharing) */
 const cors_options = {
@@ -22,8 +19,9 @@ const cors_options = {
     preflightContinue: false,
     optionsSuccessStatus: 204,
 };
-api_router.use(cors(cors_options));
 
+api_router.use(rate_limiter);
+api_router.use(cors(cors_options));
 api_router.get(
     "/api/:region?/:province?/:city_or_municipality?/:barangay?",
     api_handler
