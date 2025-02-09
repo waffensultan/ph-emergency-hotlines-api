@@ -6,7 +6,7 @@ const generate_source_files = () => {
         __dirname,
         "../models/data/source.json"
     );
-    const data = JSON.parse(fs.readFileSync(central_source_JSON, "utf-8"))[0];
+    const data = JSON.parse(fs.readFileSync(central_source_JSON, "utf-8"));
 
     const regions = Object.keys(data).slice(1); // Exclude national for now
 
